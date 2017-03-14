@@ -1,7 +1,22 @@
 * {
-  font-family: sans-serif;
+  font-family: Helvetica;
 }
 
 span{
 	font-size: 20pt;
+}
+
+p {
+    display: inline;
+}
+	
+#lateral{ 
+   width: 300px; 
+   float: right; 
+} 
+
+#principal{ 
+   background-color: #ffffff; 
+   padding: 10 10 10 10px; 
+   margin-right: 300px; 
 }
