@@ -6,17 +6,30 @@ span{
 	font-size: 20pt;
 }
 
-p {
+p{
     display: inline;
 }
 	
 #lateral{ 
-   width: 300px; 
+   width: 300px;
    float: right; 
+   line-height: 2	;
+}
+
+.circulo {
+     width: 80px;
+     height: 80px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #8A9286;
+     margin-left:   30px;
+  	 margin-right:  30px;
 } 
 
-#principal{ 
-   background-color: #ffffff; 
-   padding: 10 10 10 10px; 
-   margin-right: 300px; 
+th{
+	border-radius: 15px 15px 15px 15px;
+	height: 100px;
+	width: 800px;
+	background-color: #74B45A;
 }
