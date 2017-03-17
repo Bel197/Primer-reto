@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
 * {
-  font-family: Helvetica;
+  font-family: Muli;
 }
 
 span{
@@ -38,7 +40,7 @@ th.a2{
 	border-radius: 15px 15px 15px 15px;
 	height: 60px;
 	width: 800px;
-	background-color: #EBF073
+	background-color: #EBF073;
 }
 
 .txt-table{
@@ -47,10 +49,12 @@ th.a2{
 }
 
 .btn_resources{
-	margin-left: 94px;
+	margin-left: 90px;
+	height: 30px;
+	display: flex;
 }
 
-input{
+input.submit{
 	background-color: transparent;
 	border-color: transparent;
 	text-decoration: underline;
